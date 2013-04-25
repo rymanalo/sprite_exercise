@@ -4,12 +4,12 @@ body {
 
 span {
   background-image:url('menu-sprite.jpg');
+  display:inline-block;
+  height: 60px;
 }
 .home {
   background-position:-5px -4px;
-  display:inline-block;
   width: 115px;
-  height: 60px;
 }
 
 .home:hover {
@@ -22,9 +22,7 @@ span {
 
 .about {
   background-position:-125px -5px;
-  display:inline-block;
   width: 120px;
-  height: 60px;
 }
 
 .about:hover {
@@ -37,9 +35,7 @@ span {
 
 .contact {
   background-position:-250px -5px;
-  display:inline-block;
   width: 160px;
-  height: 60px;
 }
 
 .contact:hover {
