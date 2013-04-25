@@ -1,0 +1,52 @@
+body {
+  background: #ccd1d6;
+}
+
+
+.home {
+  background-image:url('menu-sprite.jpg');
+  background-position:-5px -4px;
+  display:inline-block;
+  width: 115px;
+  height: 60px;
+}
+
+.home:hover {
+  background-position:-5px -75px;
+}
+
+.home:active {
+  background-position:-5px -145px;
+}
+
+.about {
+  background-image:url('menu-sprite.jpg');
+  background-position:-125px -5px;
+  display:inline-block;
+  width: 120px;
+  height: 60px;
+}
+
+.about:hover {
+  background-position:-125px -75px;
+}
+
+.about:active {
+  background-position:-125px -145px;
+}
+
+.contact {
+  background-image:url('menu-sprite.jpg');
+  background-position:-250px -5px;
+  display:inline-block;
+  width: 160px;
+  height: 60px;
+}
+
+.contact:hover {
+  background-position:-250px -75px;
+}
+
+.contact:active {
+  background-position:-250px -145px;
+}
