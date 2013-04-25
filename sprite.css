@@ -2,9 +2,10 @@ body {
   background: #ccd1d6;
 }
 
-
-.home {
+span {
   background-image:url('menu-sprite.jpg');
+}
+.home {
   background-position:-5px -4px;
   display:inline-block;
   width: 115px;
@@ -20,7 +21,6 @@ body {
 }
 
 .about {
-  background-image:url('menu-sprite.jpg');
   background-position:-125px -5px;
   display:inline-block;
   width: 120px;
@@ -36,7 +36,6 @@ body {
 }
 
 .contact {
-  background-image:url('menu-sprite.jpg');
   background-position:-250px -5px;
   display:inline-block;
   width: 160px;
